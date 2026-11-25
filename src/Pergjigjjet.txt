@@ -1,0 +1,34 @@
+Workshop 1 - Pergjigjet
+Emri dhe mbiemri: Amar Qadraku
+Varianti: B
+
+
+1. switch-i që jep vler
+
+a)Fillon te rreshti: switch (choice1) {
+
+b) Variabla choice1 ruan numrin e rolit qe zgjedh perdoruesi. Per shembull, nese shkruajme 1, ruhet vlera 1, qe perfaqeson Admin.
+
+c) Nese e fshijme default, programi nuk do te shfaqe mesazhin "Zgjedhje e Gabuar" kur pedoruesi vendos nje numer jashte intervalit 1–4, sepse default sherben per te kapur zgjedhjet qe nuk perputhen me asnje case.
+
+
+2. Një kusht me && ose ||
+   a) if (fresh_user.equals("Admin") && password.equals("Administrator01"))
+   b) Username: Admin
+
+      Password: Administrator01
+
+      Kushti del true sepse username dhe password janë të saktë.
+      c) Username: Admin
+
+         Password: 12345
+
+         Kushti del false sepse password-i nuk është i saktë.
+
+3. Ndryshimi juaj
+a) Shtova case 4 për rolin Operator, me username operator, password Op3r!2026 dhe nivelin 2. Gjithashtu shtova kontrollin për password bosh me password.isEmpty().
+b) Sepse case 4 është pjesë e switch dhe aty vendoset logjika për rolin e ri Operator. Kontrollin për password bosh e vendosa para kontrollit të username-it dhe password-it, që të mos lejohet hyrja me password bosh.
+c) 4
+   operator
+   [Enter]
+}
